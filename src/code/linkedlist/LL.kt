@@ -1,8 +1,8 @@
 package code.linkedlist
 
 data class LLNode<T>(
-        var value: T,
-        var next: LLNode<T>? = null
+    var value: T,
+    var next: LLNode<T>? = null
 )
 
 
@@ -184,9 +184,7 @@ class LL<T>(value: T) {
         var slow = head
         var fast = head
 
-        while (fast?.next != null
-//                && fast.next?.next != null
-        ) {
+        while (fast?.next != null) {
             slow = slow?.next
             fast = fast.next?.next
         }

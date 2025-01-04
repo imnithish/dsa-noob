@@ -63,11 +63,11 @@ class MergeSort {
     }
 }
 
-fun main() {
-  val foo=  MergeSort().mergeSort(intArrayOf(10, 20, 90, 30, 20, 100, 5))
-
-    foo.forEach {
-        println(it)
-
-    }
-}
+//fun main() {
+//  val foo=  MergeSort().mergeSort(intArrayOf(10, 20, 90, 30, 20, 100, 5))
+//
+//    foo.forEach {
+//        println(it)
+//
+//    }
+//}
